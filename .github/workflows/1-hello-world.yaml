@@ -12,12 +12,12 @@ jobs:
     second-job:
         runs-on: ubuntu-latest
         steps:
-            - name: print goodbye
-              run: echo "GoodBye" 
-
-            - name: I will fail
-              run: exit 1
-
             - name: Hi to you
               run: echo "Hi to you"
+
+            - name: I will suc.
+              run: exit 0
+
+            - name: print goodbye
+              run: echo "GoodBye" 
               
