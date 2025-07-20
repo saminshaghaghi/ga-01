@@ -3,8 +3,8 @@ name: 3 - Simple API call
 on:
   push:
   schedule:
-   - cron: '30 09 * * *' 
-   - cron: '35 09 * * *'
+   - cron: '11 10 * * *' 
+   - cron: '20 10 * * *'
   workflow_dispatch:
 
 jobs:
